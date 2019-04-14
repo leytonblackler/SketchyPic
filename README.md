@@ -8,7 +8,7 @@ The aim of the project is to research and utilise state of the art deep learning
 
 ### Thesis
 
-[<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" height="50">]()
+[<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" height="50">]() &nbsp; &larr; Click Here to View
 
 *Not yet available*
 
