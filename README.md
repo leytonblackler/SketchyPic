@@ -1,4 +1,7 @@
 # SketchyPic
+<p align="center">
+  <img src="./documentation/images/logo.png" height="140"/>
+</p>
 
 ### About
 
