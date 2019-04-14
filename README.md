@@ -11,7 +11,7 @@ The aim of the project is to research and utilise state of the art deep learning
 ### Thesis
 
 <div style="display: flex; flex-direction: row; align-items: center; justify-content: left">
-[<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" height="50">]() &nbsp; &nbsp; &larr; &nbsp; Click here to view
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" height="50"> &nbsp; &nbsp; &larr; &nbsp; Click here to view
 </div>
 
 *Not yet available*
