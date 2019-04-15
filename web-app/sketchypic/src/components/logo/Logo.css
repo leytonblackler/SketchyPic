@@ -1,0 +1,148 @@
+.main {
+    margin-top: calc((100vh / 2) - 200px);
+    width: 500px;
+    -webkit-animation: move-up 1.0s forwards;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 7.8s;
+    animation: move-up 1.0s forwards;
+    animation-iteration-count: 1;
+    animation-delay: 7.8s;
+}
+
+@-webkit-keyframes move-up {
+    100% {
+        margin-top: -50px;
+    }
+}
+
+@keyframes move-up {
+    100% {
+        margin-top: -50px;
+    }
+}
+
+.logo-path {
+    stroke: #000;
+}
+
+
+.logo-path--s-1 {
+    stroke-dasharray: 2600;
+    stroke-dashoffset: 2600;
+    stroke-width: 6;
+    animation: logo-s-1 7s linear forwards 1s;
+}
+
+@keyframes logo-s-1 {
+    0% {
+        stroke-width: 5;
+        stroke-dashoffset: 2600;
+    }
+    
+    14% {
+        stroke-width: 5;
+    }
+    
+    15% {
+        stroke-width: 5;
+    }
+    
+    100% {
+        stroke-dashoffset: 5;
+        stroke-width: 10;
+    }
+}
+
+.logo-path--k-1 {
+    stroke-dasharray: 2600;
+    stroke-dashoffset: 2600;
+    stroke-width: 5;
+    animation: other-letters 7s linear forwards 1.4s;
+}
+
+.logo-path--k-2 {
+    stroke-dasharray: 2600;
+    stroke-dashoffset: 2600;
+    stroke-width: 5;
+    animation: other-letters 9s linear forwards 2.0s;
+}
+
+.logo-path--e-1 {
+    stroke-dasharray: 2600;
+    stroke-dashoffset: 2600;
+    stroke-width: 5;
+    animation: other-letters 10s linear forwards 2.4s;
+}
+
+.logo-path--t-1 {
+    stroke-dasharray: 2600;
+    stroke-dashoffset: 2600;
+    stroke-width: 5;
+    animation: other-letters 7s linear forwards 2.8s;
+}
+
+.logo-path--c-1 {
+    stroke-dasharray: 2600;
+    stroke-dashoffset: 2600;
+    stroke-width: 5;
+    animation: other-letters 7s linear forwards 3.3s;
+}
+
+.logo-path--h-1 {
+    stroke-dasharray: 2600;
+    stroke-dashoffset: 2600;
+    stroke-width: 5;
+    animation: other-letters 7s linear forwards 3.7s;
+}
+
+.logo-path--y-1 {
+    stroke-dasharray: 2600;
+    stroke-dashoffset: 2600;
+    stroke-width: 5;
+    animation: other-letters 7s linear forwards 4.5s;
+}
+
+.logo-path--p-1 {
+    stroke-dasharray: 2600;
+    stroke-dashoffset: 2600;
+    stroke-width: 5;
+    animation: other-letters 7s linear forwards 5.2s;
+}
+
+.logo-path--i-1 {
+    stroke-dasharray: 2600;
+    stroke-dashoffset: 2600;
+    stroke-width: 5;
+    animation: other-letters 7s linear forwards 6.1s;
+}
+
+.logo-path--c-2 {
+    stroke-dasharray: 2600;
+    stroke-dashoffset: 2600;
+    stroke-width: 5;
+    animation: other-letters 7s linear forwards 6.5s;
+}
+
+.logo-path--t-2 {
+    stroke-dasharray: 2600;
+    stroke-dashoffset: 2600;
+    stroke-width: 5;
+    animation: other-letters 7s linear forwards 6.9s;
+}
+
+.logo-path--i-2 {
+    stroke-dasharray: 2600;
+    stroke-dashoffset: 2600;
+    stroke-width: 5;
+    animation: other-letters 3s linear forwards 7.2s;
+}
+
+@keyframes other-letters {
+    0% {
+        stroke-dashoffset: 2600;
+    }
+    
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
