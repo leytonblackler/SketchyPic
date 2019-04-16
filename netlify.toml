@@ -1,0 +1,4 @@
+[build]
+base = "web-app/sketchypic/"
+publish = "web-app/sketchypic/build/"
+command = "yarn build"
