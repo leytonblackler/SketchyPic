@@ -5,7 +5,13 @@ const styles = theme => {
         height: 'calc(100vh - 220px - 100px)',
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'space-evenly',
+        justifyContent: 'space-between',
+        alignItems: 'center'
+      },
+      content: {
+        height: '100%',
+        display: 'flex',
+        justifyContent: 'center',
         alignItems: 'center'
       },
       button: {
@@ -20,18 +26,22 @@ const styles = theme => {
         fontWeight:  600,
         fontSize: '14pt'
       },
-      githubButton: {
-        marginTop: 100,
+      circleButtonsContainer: {
+        marginBottom: 100,
+        width: '100%',
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center'
+      },
+      circleButton: {
+        marginLeft: 50,
+        marginRight: 50,
+        width: 60,
+        height: 60,
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',
-        width: 60,
-        height: 60
-      },
-      githubLogo: {
-        width: 50,
-        height: 50,
-        marginTop: -7
+        alignItems: 'center'
       }
     });
   };

@@ -15,7 +15,7 @@ const LogoContainer = posed.div({
         marginTop: (window.innerHeight / 2) - 110
     },
     shifted: {
-        marginTop: (window.innerHeight / 6),
+        marginTop: 100,
         transition: {
             duration: 1500,
             ease: 'easeOut',
@@ -30,7 +30,7 @@ class Main extends Component {
     }
 
     componentDidMount() {
-        setTimeout(() => this.setState({ shiftLogo: true }), 8000);
+        setTimeout(() => this.setState({ shiftLogo: true }), 7500);
     }
 
     render() {
