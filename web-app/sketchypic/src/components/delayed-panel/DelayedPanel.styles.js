@@ -13,9 +13,11 @@ const styles = theme => {
         paddingRight: 20,
         borderRadius: 50,
         borderWidth: 2,
+        textTransform: 'none',
+        fontFamily: 'CircularStd',
         borderColor: 'black',
-        fontWeight:  700,
-        fontSize: '12pt'
+        fontWeight:  600,
+        fontSize: '14pt'
       },
       githubButton: {
         marginTop: 100,
