@@ -5,7 +5,7 @@ const styles = theme => {
         height: 'calc(100vh - 220px - 100px)',
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'center',
+        justifyContent: 'space-evenly',
         alignItems: 'center'
       },
       button: {

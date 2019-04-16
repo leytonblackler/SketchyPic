@@ -46,77 +46,77 @@
     stroke-dasharray: 2600;
     stroke-dashoffset: 2600;
     stroke-width: 5;
-    animation: other-letters 9s linear forwards 2.0s;
+    animation: other-letters 7s linear forwards 1.9s;
 }
 
 .logo-path--e-1 {
     stroke-dasharray: 2600;
     stroke-dashoffset: 2600;
     stroke-width: 5;
-    animation: other-letters 10s linear forwards 2.4s;
+    animation: other-letters 7s linear forwards 2.1s;
 }
 
 .logo-path--t-1 {
     stroke-dasharray: 2600;
     stroke-dashoffset: 2600;
     stroke-width: 5;
-    animation: other-letters 7s linear forwards 2.8s;
+    animation: other-letters 7s linear forwards 2.3s;
 }
 
 .logo-path--c-1 {
     stroke-dasharray: 2600;
     stroke-dashoffset: 2600;
     stroke-width: 5;
-    animation: other-letters 7s linear forwards 3.3s;
+    animation: other-letters 7s linear forwards 2.9s;
 }
 
 .logo-path--h-1 {
     stroke-dasharray: 2600;
     stroke-dashoffset: 2600;
     stroke-width: 5;
-    animation: other-letters 7s linear forwards 3.7s;
+    animation: other-letters 7s linear forwards 3.1s;
 }
 
 .logo-path--y-1 {
     stroke-dasharray: 2600;
     stroke-dashoffset: 2600;
     stroke-width: 5;
-    animation: other-letters 7s linear forwards 4.5s;
+    animation: other-letters 7s linear forwards 3.9s;
 }
 
 .logo-path--p-1 {
     stroke-dasharray: 2600;
     stroke-dashoffset: 2600;
     stroke-width: 5;
-    animation: other-letters 7s linear forwards 5.2s;
+    animation: other-letters 6s linear forwards 4.6s;
 }
 
 .logo-path--i-1 {
     stroke-dasharray: 2600;
     stroke-dashoffset: 2600;
     stroke-width: 5;
-    animation: other-letters 7s linear forwards 6.1s;
+    animation: other-letters 7s linear forwards 5.3s;
 }
 
 .logo-path--c-2 {
     stroke-dasharray: 2600;
     stroke-dashoffset: 2600;
     stroke-width: 5;
-    animation: other-letters 7s linear forwards 6.5s;
+    animation: other-letters 7s linear forwards 5.5s;
 }
 
 .logo-path--t-2 {
     stroke-dasharray: 2600;
     stroke-dashoffset: 2600;
     stroke-width: 5;
-    animation: other-letters 7s linear forwards 6.9s;
+    animation: other-letters 7s linear forwards 6.2s;
 }
 
 .logo-path--i-2 {
     stroke-dasharray: 2600;
     stroke-dashoffset: 2600;
     stroke-width: 5;
-    animation: other-letters 3s linear forwards 7.2s;
+    animation: other-letters 3s linear forwards 6.6s;
 }
 
 @keyframes other-letters {

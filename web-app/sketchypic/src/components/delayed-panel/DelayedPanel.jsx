@@ -19,9 +19,7 @@ class DelayedPanel extends Component {
         return this.state.delayFinished ? (
             <Fade in={true} timeout={2000}>
                 <div className={this.props.classes.main}>
-                    <Button className={this.props.classes.button}>
-                        Select a Photo
-                    </Button>
+                    <span>Coming soon...</span>
                     <a href="https://github.com/leytonblackler/SketchyPic">
                         <IconButton aria-label="Delete" className={this.props.classes.githubButton}>
                             <img className={this.props.classes.githubLogo} src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="View GitHub Repository"/>
@@ -34,3 +32,5 @@ class DelayedPanel extends Component {
 }
 
 export default withStyles(styles) (DelayedPanel);
+
+// <Button className={this.props.classes.button}>Select a Photo</Button>
