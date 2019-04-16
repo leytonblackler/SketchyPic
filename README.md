@@ -10,7 +10,7 @@ The aim of the project is to research and utilise state of the art deep learning
 
 ### Interactive Demo
 
-[sketchypic.netlify.com](sketchypic.netlify.com)
+[sketchypic.netlify.com](https://sketchypic.netlify.com/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/086c7ac0-5f2f-4fd0-9661-b70d6bc1eae5/deploy-status)](https://app.netlify.com/sites/sketchypic/deploys)
 
