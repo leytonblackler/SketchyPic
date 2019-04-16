@@ -15,7 +15,7 @@ const LogoContainer = posed.div({
         marginTop: (window.innerHeight / 2) - 110
     },
     shifted: {
-        marginTop: (window.innerHeight / 8),
+        marginTop: (window.innerHeight / 7),
         transition: {
             duration: 1500,
             ease: 'easeOut',

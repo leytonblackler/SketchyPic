@@ -22,9 +22,11 @@ class DelayedPanel extends Component {
                     <Button className={this.props.classes.button}>
                         Select a Photo
                     </Button>
-                    <IconButton aria-label="Delete" className={this.props.classes.githubButton}>
-                        <img className={this.props.classes.githubLogo} src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="View GitHub Repository"/>
-                    </IconButton>
+                    <a href="https://github.com/leytonblackler/SketchyPic">
+                        <IconButton aria-label="Delete" className={this.props.classes.githubButton}>
+                            <img className={this.props.classes.githubLogo} src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="View GitHub Repository"/>
+                        </IconButton>
+                    </a>
                 </div>
             </Fade>
         ) : null;
