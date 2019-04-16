@@ -1,7 +1,8 @@
 const styles = theme => {
     return ({
       main: {
-        marginTop: 100,
+        width: '100%',
+        height: 'calc(100vh - 220px - 100px)',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',

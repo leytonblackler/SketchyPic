@@ -7,11 +7,19 @@ import Fade from '@material-ui/core/Fade';
 
 class DelayedPanel extends Component {
 
+    state = {
+        delayFinished: false
+    }
+
+    componentDidMount() {
+        setTimeout(() => this.setState({delayFinished: true}), 9500);
+    }
+
     render() {
-        return (
-            <Fade in={true}>
+        return this.state.delayFinished ? (
+            <Fade in={true} timeout={2000}>
                 <div className={this.props.classes.main}>
-                    <Button variant="normal" className={this.props.classes.button}>
+                    <Button className={this.props.classes.button}>
                         Select a Photo
                     </Button>
                     <IconButton aria-label="Delete" className={this.props.classes.githubButton}>
@@ -19,7 +27,7 @@ class DelayedPanel extends Component {
                     </IconButton>
                 </div>
             </Fade>
-        );
+        ) : null;
     }
 }
 

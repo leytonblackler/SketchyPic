@@ -1,24 +1,6 @@
 .main {
-    margin-top: calc((100vh / 2) - 200px);
     width: 500px;
-    -webkit-animation: move-up 1.0s forwards;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-delay: 7.8s;
-    animation: move-up 1.0s forwards;
-    animation-iteration-count: 1;
-    animation-delay: 7.8s;
-}
-
-@-webkit-keyframes move-up {
-    100% {
-        margin-top: -50px;
-    }
-}
-
-@keyframes move-up {
-    100% {
-        margin-top: -50px;
-    }
+    height: 220px;
 }
 
 .logo-path {

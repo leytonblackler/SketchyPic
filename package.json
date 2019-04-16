@@ -1,6 +1,9 @@
 {
   "dependencies": {
     "@material-ui/core": "^3.9.3",
-    "react": "^16.8.6"
+    "d3-ease": "^1.0.5",
+    "react": "^16.8.6",
+    "react-move": "^5.2.1",
+    "react-pose": "^4.0.8"
   }
 }
