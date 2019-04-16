@@ -2,3 +2,8 @@
 base = "web-app/sketchypic/"
 publish = "web-app/sketchypic/build/"
 command = "yarn build"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
