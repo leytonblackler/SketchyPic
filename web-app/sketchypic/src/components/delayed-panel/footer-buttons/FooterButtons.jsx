@@ -24,21 +24,21 @@ class FooterButtons extends Component {
     render() {
         return (
             <div className={this.props.classes.main}>
-                <Tooltip title="What's this?" placement="top" PopperProps={{style: {marginLeft: 15}}}>
+                <Tooltip title="What's this?" placement="top" disableTriggerFocus={true} PopperProps={{style: {marginLeft: 15}}}>
                     <IconButton className={this.props.classes.circleButton} onClick={this.handleInfoDialogButtonClicked}>
                         <Icon path={mdiHelpCircle} size={'50px'} color="black"/>
                     </IconButton>
                 </Tooltip>
                 <InfoDialog open={this.state.infoDialogOpen} onClose={this.handleInfoDialogClose}/>
                 <a href="https://github.com/leytonblackler/SketchyPic">
-                    <Tooltip title="View the GitHub repository" placement="top" PopperProps={{style: {marginLeft: 15}}}>
+                    <Tooltip title="View the GitHub repository" placement="top" disableTriggerFocus={true} PopperProps={{style: {marginLeft: 15}}}>
                         <IconButton className={this.props.classes.circleButton}>
                             <Icon path={mdiGithubCircle} size={'50px'} color="black"/>
                         </IconButton>
                     </Tooltip>
                 </a>
                 <a href="https://leytonblackler.dev/">
-                    <Tooltip title="Check out my personal developer website" placement="top"  PopperProps={{style: {marginLeft: 10}}}>
+                    <Tooltip title="Check out my personal developer website" placement="top" disableTriggerFocus={true} PopperProps={{style: {marginLeft: 10}}}>
                         <IconButton className={this.props.classes.circleButton}>
                             <Icon path={mdiAccountCircle} size={'50px'} color="black"/>
                         </IconButton>

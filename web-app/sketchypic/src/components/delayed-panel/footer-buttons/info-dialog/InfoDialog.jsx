@@ -17,7 +17,7 @@ const contentText = (
 
 const infoDialog = props => {
     return (
-        <Dialog open={props.open} PaperProps={{style: {borderRadius: 20, width: 400}}}>
+        <Dialog open={props.open} disableRestoreFocus={true} PaperProps={{style: {borderRadius: 20, width: 400}}}>
             <DialogTitle className={props.classes.titleContainer}>
                 <div className={props.classes.titleContents}>
                     <h3>What is SketchyPic?</h3>

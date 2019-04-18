@@ -4,7 +4,8 @@ const styles = theme => {
         paddingTop: 0,
         paddingBottom: 0,
         paddingLeft: 30,
-        paddingRight: 17
+        paddingRight: 17,
+        marginBottom: -15
       },
       titleContents: {
         display: 'flex',
@@ -16,7 +17,8 @@ const styles = theme => {
         paddingTop: 0,
         paddingBottom: 15,
         paddingLeft: 30,
-        paddingRight: 30
+        paddingRight: 30,
+        fontSize: '11pt'
       },
       closeButton: {
         width: 50,
