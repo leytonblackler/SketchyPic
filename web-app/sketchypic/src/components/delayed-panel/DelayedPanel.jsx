@@ -12,7 +12,7 @@ class DelayedPanel extends Component {
     }
 
     componentDidMount() {
-        setTimeout(() => this.setState({delayFinished: true}), 0);
+        setTimeout(() => this.setState({delayFinished: true}), 9000);
     }
 
     render() {
