@@ -1,2 +1,2 @@
-research/saliency/Salient-Object-Detection/salience_model/model.ckpt-200.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
-research/saliency/Salient-Object-Detection/salience-model/model.ckpt-200.index filter=lfs diff=lfs merge=lfs -text
+core/salient_object_detection/salience_model/model.ckpt-200.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+core/salient_object_detection/salience_model/model.ckpt-200.index filter=lfs diff=lfs merge=lfs -text
