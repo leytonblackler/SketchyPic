@@ -1,3 +1,4 @@
 node_modules
 core/sketchy_database
 core/salient_object_detection/salience_model
+core/sketchy_database_photo_pairs

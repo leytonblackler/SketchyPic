@@ -25,3 +25,6 @@ https://docs.opencv.org/3.2.0/equalization_opencv.jpg
 
 
 https://github.com/duxingren14/DualGAN
+
+https://affinelayer.com/pix2pix/
+https://github.com/affinelayer/pix2pix-tensorflow
