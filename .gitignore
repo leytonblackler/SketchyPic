@@ -4,3 +4,7 @@ core/salient_object_detection/salience_model
 core/salient_object_detection/salience_model_v1-20190528T024211Z-001.zip
 core/sketchy_database_photo_pairs
 CycleGAN/checkpoints
+merged_dataset
+256x256
+datasets
+salience_model
