@@ -8,12 +8,13 @@
     "@mdi/js": "^3.6.95",
     "@mdi/react": "^1.1.0",
     "circular-std": "^1.0.0",
+    "notistack": "^0.9.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-pose": "^4.0.8",
     "react-scripts": "2.1.8",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
