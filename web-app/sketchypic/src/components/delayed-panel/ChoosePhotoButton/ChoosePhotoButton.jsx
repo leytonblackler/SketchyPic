@@ -2,9 +2,11 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { withSnackbar } from "notistack";
 import Button from "@material-ui/core/Button";
+import PhotoIcon from "@material-ui/icons/Photo";
 import CloudUploadIcon from "@material-ui/icons/CloudUpload";
+import Zoom from "@material-ui/core/Zoom";
 
-class uploadPhotoButton extends Component {
+class ChoosePhotoButton extends Component {
   handleImageUpload = event => {
     const photo = event.target.files[0];
     console.log(photo);
@@ -35,22 +37,26 @@ class uploadPhotoButton extends Component {
 
   render() {
     return (
-      <span>
-        <StyledInput
-          ref={"file-upload"}
-          type="file"
-          accept="image/x-png,image/gif,image/jpeg"
-          onChange={this.handleImageUpload}
-        />
-        <StyledButton
-          variant="contained"
-          styles={{ textTransform: "none" }}
-          onClick={() => this.refs["file-upload"].click()}
-        >
-          <StyledCloudUploadIcon color="black" />
-          Upload a Photo
-        </StyledButton>
-      </span>
+      <Zoom in={true}>
+        <div style={{ display: "flex" }}>
+          <StyledButton
+            disabled
+            variant="contained"
+            styles={{ textTransform: "none" }}
+          >
+            <StyledUploadIcon />
+            Upload a Photo
+          </StyledButton>
+          <StyledButton
+            variant="contained"
+            styles={{ textTransform: "none" }}
+            onClick={this.props.onClick}
+          >
+            <StyledPhotoIcon />
+            Choose a Photo
+          </StyledButton>
+        </div>
+      </Zoom>
     );
   }
 }
@@ -62,16 +68,16 @@ const StyledButton = styled(Button)`
     text-transform: none;
     border-radius: 50px;
     background-color: white;
+    margin: 20px;
   }
 `;
 
-const StyledCloudUploadIcon = styled(CloudUploadIcon)`
+const StyledPhotoIcon = styled(PhotoIcon)`
   margin-right: 10px;
 `;
 
-const StyledInput = styled.input`
-  position: absolute;
-  visibility: hidden;
+const StyledUploadIcon = styled(CloudUploadIcon)`
+  margin-right: 10px;
 `;
 
-export default withSnackbar(uploadPhotoButton);
+export default withSnackbar(ChoosePhotoButton);
