@@ -3,14 +3,14 @@ import styled from "styled-components";
 import PhotoPanel from "../PhotoPanel/PhotoPanel";
 
 const PHOTO_NAMES = [
-  "shark",
+  "mushroom",
   "bird",
   "clock",
   "duck",
   "mug",
   "penguin",
   "flamingo",
-  "pear"
+  "shark"
 ];
 
 const GRID_SQUARE_SIZE = "15vh";
