@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( Smoothen )
+find_package( OpenCV REQUIRED )
+add_executable( Smoothen Smoothen.cpp )
+target_link_libraries( Smoothen ${OpenCV_LIBS} )

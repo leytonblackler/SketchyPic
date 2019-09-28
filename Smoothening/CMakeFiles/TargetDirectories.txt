@@ -1,0 +1,3 @@
+/media/leytonblackler/ECS-local/scratch/blacklleyt/Semester2/sketchypic/Smoothening/CMakeFiles/rebuild_cache.dir
+/media/leytonblackler/ECS-local/scratch/blacklleyt/Semester2/sketchypic/Smoothening/CMakeFiles/Smoothen.dir
+/media/leytonblackler/ECS-local/scratch/blacklleyt/Semester2/sketchypic/Smoothening/CMakeFiles/edit_cache.dir
