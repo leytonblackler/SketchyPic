@@ -63,6 +63,7 @@ class ChoosePhotoButton extends Component {
 
 const StyledButton = styled(Button)`
   && {
+    font-family: CircularStd;
     display: flex;
     justify-content: space-evenly;
     text-transform: none;
