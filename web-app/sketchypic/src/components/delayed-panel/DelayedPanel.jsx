@@ -27,7 +27,6 @@ const PROGRESS_MESSAGES = [
   "Inverting edge map...",
   "Loading pre-trained model...",
   "Generating sketch using model...",
-  "Smoothening lines...",
   "Downloading sketch..."
 ];
 
